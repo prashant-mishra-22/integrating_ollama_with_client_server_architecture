@@ -5,6 +5,13 @@ It supports **user authentication, input filtering (emails/phone numbers/cuss wo
 
 ---
 
+### 🏷️ Badges
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+![Socket](https://img.shields.io/badge/Socket-Programming-green.svg)
+![Ollama](https://img.shields.io/badge/Ollama-Integrated-orange.svg)
+
+---
 ## ✨ Features
 - 🔑 **User Authentication** (username & password check before connection)
 - 🧹 **Message Filtering**
