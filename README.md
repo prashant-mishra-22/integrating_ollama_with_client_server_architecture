@@ -146,6 +146,3 @@ This project is licensed under the MIT License – feel free to use and modify.
 ### 🌟 If you found this useful, don’t forget to **star ⭐ the repo**!
 
 ```
-
-Do you want me to also **add code snippets (from `c.py` and `s.py`) inside the README** for quick reference, or keep it clean and minimal?
-```
