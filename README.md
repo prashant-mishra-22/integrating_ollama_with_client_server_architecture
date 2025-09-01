@@ -146,6 +146,14 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
+### 🏷️ Badges
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+![Socket](https://img.shields.io/badge/Socket-Programming-green.svg)
+![Ollama](https://img.shields.io/badge/Ollama-Integrated-orange.svg)
+
+---
+
 ### 🌟 If you found this useful, don’t forget to **star ⭐ the repo**!
 
 ```
