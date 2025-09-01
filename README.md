@@ -1,10 +1,3 @@
-Got it 🚀 — you want a **professional README.md** for your GitHub project that explains what it does, how to run it, and what could be added in the future. I'll make it polished, keyword-rich (so it’s easy to find), and beginner-friendly.
-
-Here’s a suggested README:
-
----
-
-````markdown
 # 🤖 Integrating Ollama with Client-Server Architecture  
 
 This project demonstrates how to **integrate [Ollama](https://ollama.ai/)** (Large Language Model runtime) with a **custom TCP client-server architecture** in Python.  
