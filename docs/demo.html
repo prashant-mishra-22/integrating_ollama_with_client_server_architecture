@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Demo - AI Chat App</title>
+    <style>
+        .demo-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+        .terminal {
+            background: #1e1e1e;
+            color: #00ff00;
+            padding: 20px;
+            border-radius: 10px;
+            font-family: monospace;
+            height: 400px;
+            overflow-y: auto;
+        }
+        .code-view {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+        <div class="terminal" id="client-terminal">
+            <h3 style="color: white;">Client Terminal</h3>
+            <div id="client-output"></div>
+        </div>
+        <div class="terminal" id="server-terminal">
+            <h3 style="color: white;">Server Terminal</h3>
+            <div id="server-output"></div>
+        </div>
+    </div>
+    
+    <script>
+        // Simulate chat interaction
+        const messages = [
+            "User: Hello, how are you?",
+            "AI: I'm doing well, thank you! How can I assist you today?",
+            "User: What is machine learning?",
+            "AI: Machine learning is a subset of AI that enables systems to learn from data...",
+            "User: <GoodBye>",
+            "Server: [DISCONNECTED] Connection closed"
+        ];
+        
+        let index = 0;
+        const clientOutput = document.getElementById('client-output');
+        const serverOutput = document.getElementById('server-output');
+        
+        function addMessage() {
+            if(index < messages.length) {
+                const msg = messages[index];
+                if(index % 2 === 0) {
+                    clientOutput.innerHTML += `<div>${msg}</div>`;
+                } else {
+                    serverOutput.innerHTML += `<div>${msg}</div>`;
+                }
+                index++;
+                setTimeout(addMessage, 1500);
+            }
+        }
+        
+        setTimeout(addMessage, 1000);
+    </script>
+</body>
+</html>
