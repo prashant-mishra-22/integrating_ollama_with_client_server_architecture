@@ -1,0 +1,6 @@
+title: "AI Chat App with Ollama"
+description: "Client-Server AI Chat Application with LLaMA3.2 integration"
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
